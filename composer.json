@@ -1,0 +1,24 @@
+{
+    "name": "programster/query-builder-parser",
+    "type": "library",
+    "description": "A library for converting a jQuery query builder JSON rules string to an SQL statement.",
+    "keywords": ["querybuilder", "query", "builder", "jquery"],
+    "homepage": "https://github.com/programster/package-query-builder-parser",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Stuart Page",
+            "email": "sdpagent@gmail.com",
+            "homepage": "https://blog.programster.org",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "psr-4": {
+            "Programster\\QueryBuilderParser\\": "src/"
+        }
+    }
+}
