@@ -20,5 +20,8 @@
         "psr-4": {
             "Programster\\QueryBuilderParser\\": "src/"
         }
+    },
+    "suggest": {
+        "programster/query-builder-pgsql-driver": "A driver for using this package with a PostgreSQL backend."
     }
 }
